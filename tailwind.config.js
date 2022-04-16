@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        halo: "url('/img/926721.png')"
+        halo: "url('/dist/img/926721.png')"
       })
     },
   },
