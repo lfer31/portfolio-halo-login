@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Halo tailwindcss</title>
+    <link rel="stylesheet" href="/dist/styles.css">
+  </head>
+  <body>
+    <div class="w-full h-screen bg-halo bg-center bg-cover">
+      <nav class="container mx-auto py-3 px-5 flex justify-between items-center">
+        <h1 class="baseline rounded-lg text-3xl bg-slate-500/50 text-white py-2 px-5">Halo</h1>
+        <ul class="flex space-x-6">
+          <li>
+            <a href="#" class="hover:text-red-500">Buy</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-red-500">About us</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-red-500">Carrers</a>
+          </li>
+        </ul>
+        <button type="button" class="baseline rounded-lg bg-blue-500 text-white px-6 py-2 hover:bg-blue-700">
+          Login
+        </button>
+      </nav>
+      <section id="content">
+        <!-- login -->
+        <div class="flex flex-col border p-5 mt-20 ml-[200px] rounded-lg bg-slate-100/50 w-1/3">
+          <h1 class="border-b py-2 mb-2 text-center uppercase font-bold text-lg">
+            login
+          </h1>
+          <div class="flex flex-col">
+            <label class="mb-2 font-bold">Usuario:</label>
+            <input type="text" class="border rounded-lg py-2 px-2 mb-3 focus:ring-blue-500 focus:border-blue-500 outline-none" name="" value="" placeholder="User" />
+          </div>
+          <div class="flex flex-col">
+            <label class="mb-2 font-bold">Password:</label>
+            <input type="password" class="border rounded-lg py-2 px-2 mb-3 focus:ring-blue-500 focus:border-blue-500 outline-none" name="" value="" placeholder="Password" />
+          </div>
+          <button type="button" class="rounded-lg px-6 py-2 bg-red-500 text-white text-center hover:bg-red-700">
+            ACCEDER
+          </button>
+          <p class="py-3 text-center">- OR -</p>
+          <div class="flex flex-col">
+            <button type="button" class="mb-2 rounded-lg px-6 py-2 bg-blue-500 text-white text-center hover:bg-blue-700">
+              FACEBOOK
+            </button>
+            <button type="button" class="mb-2 rounded-lg px-6 py-2 bg-slate-700 text-white text-center hover:bg-slate-900">
+              GITHUB
+            </button>
+            <button type="button" class="rounded-lg px-6 py-2 bg-sky-500 text-white text-center hover:bg-sky-700">
+              TWITTER
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

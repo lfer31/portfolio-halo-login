@@ -1,0 +1,17 @@
+{
+  "name": "halo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify",
+    "dev": "tailwindcss -i ./src/styles.css -o ./dist/styles.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
